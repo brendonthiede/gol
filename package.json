@@ -1,0 +1,25 @@
+{
+  "name": "gol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint . --exclude node_modules",
+    "unit": "mocha",
+    "test": "grunt",
+    "watch": "grunt && grunt watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-simple-mocha": "^0.4.1",
+    "jshint": "^2.9.7",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0"
+  }
+}
