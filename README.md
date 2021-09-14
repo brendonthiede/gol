@@ -48,3 +48,11 @@ To use this kata tool, you can run the following:
 npm install
 npm run watch
 ```
+
+While the watcher is running, you can add any new test cases, refactor existing code, etc. and tests will be run on each save.
+
+To see the actual output of running the GOL simulation:
+
+```bash
+node index.js
+```
